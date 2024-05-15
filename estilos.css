@@ -1,0 +1,73 @@
+
+
+h1{
+    font-size: 32pt;
+    font-family: 'Times New Roman', Times, serif;
+
+}
+
+body{
+    text-align: center;
+    background-color: rgb(245, 220, 187);
+}
+
+
+
+div#gameboard{
+    margin: auto;
+    width: 400px;
+    height: 400px;
+    display: flex;
+    flex-wrap: wrap;
+
+
+}
+
+.square svg{
+    height: 40px;
+    width: 40px;
+    margin: 5px;
+    cursor: pointer;
+    position: relative;
+    z-index: -9;
+}
+
+path{
+    position: relative;
+    z-index: -10;
+}
+
+.piece{
+    position: relative;
+    z-index: 10;
+
+}
+
+.square{
+    height: 50px;
+    width: 50px;
+    position: relative;
+    
+}
+
+.beige {
+    background-color: rgb(201, 201, 194);
+}
+
+.brown{
+    background-color: rgb(28, 109, 64);
+}
+
+.Black{
+    fill: rgb(28, 28, 28);
+}
+
+.White{
+    fill: rgb(255, 255, 255);
+}
+
+p{
+    font-size: 20pt;
+    
+}
+
